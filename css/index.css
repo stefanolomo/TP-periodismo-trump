@@ -1,0 +1,45 @@
+@import url(normalize.css);
+@import url(variables.css);
+header {
+  font-family: 'Times New Roman', Times, serif;
+  padding: var(--xxl) var(--xxxxxl);
+  margin-bottom: var(--xxxl);
+}
+main {
+  padding: 0 8.4rem;
+}
+main h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2.4em;
+  line-height: 1.4rem;
+  font-weight: normal;
+}
+main h2,
+main .volanta,
+main .bajada {
+  margin: var(--xxl);
+}
+main h2,
+main .volanta {
+  text-align: center;
+}
+main .bajada {
+  text-align: center;
+  padding: var(--xxl) 12rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+main .volanta {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+main p {
+  line-height: 1.4;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+main img {
+  max-width: 650px;
+  display: block;
+  padding-top: var(--xxxl);
+  margin: 0 auto;
+}
