@@ -6,12 +6,14 @@ header {
   margin-bottom: var(--xxxl);
 }
 main {
+  display: flex;
+  flex-direction: column;
   padding: 0 8.4rem;
 }
 main h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2.4em;
-  line-height: 1.4rem;
+  line-height: 1.4;
   font-weight: normal;
 }
 main h2,
@@ -38,8 +40,23 @@ main p {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 main img {
-  max-width: 650px;
+  width: 650px;
+  max-width: 100%;
   display: block;
-  padding-top: var(--xxxl);
+  padding-top: var(--xxl);
   margin: 0 auto;
+}
+main h3 {
+  margin: 0.8rem 0 0.4rem 0;
+}
+main hr {
+  width: 100%;
+}
+@media (max-width: 900px) {
+  main main {
+    padding: 0 2.4rem;
+  }
+  main p.bajada {
+    padding: var(--xxl) 2.4rem;
+  }
 }
